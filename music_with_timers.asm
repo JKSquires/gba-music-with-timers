@@ -1,5 +1,7 @@
 b start
 
+@include header.asm
+
 start:
 
 ldr r0,=0x04000084 ; SOUNDCNT_X
